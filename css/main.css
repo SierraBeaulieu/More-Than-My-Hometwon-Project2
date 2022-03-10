@@ -261,3 +261,130 @@ textarea {
   }
 }
 
+
+
+
+
+.main{
+  background-color: #4E598C;
+}
+
+
+
+
+.artist{
+  color: #BCB6FF;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 60px;
+}
+.title{
+  color: #EDD892;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 30px;
+}
+
+.sierraheart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+}
+.sierraheart:before,
+.sierraheart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: pink;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.sierraheart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+.sierraheart{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.one{
+  color: pink;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+}
+
+.two{
+  color: hotpink;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 25px;
+}
+  
+
+.three{
+  color: pink;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+}
+
+.four{
+  color: hotpink;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 25px;}
+
+.five{
+  color: pink;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+}
+
+.six{
+  color: hotpink;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 25px;}
+
+.seven{
+  color: pink;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+}
+
+.eight{
+  color: hotpink;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 25px;}
