@@ -263,15 +263,13 @@ textarea {
 
 
 font-family: 'Caveat', cursive;
-font-family: 'Indie Flower', cursive;
-font-family: 'Over the Rainbow', cursive;
+font-family: 'Dancing Script', cursive;
 
 
 .main{
-  background-color: #94d3f2;
+  padding: 25px;
+  background-color: blue;
 }
-
-
 
 
 .artist{
@@ -279,7 +277,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 30px;
   display: flex;
   justify-content: center;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 60px;
 }
 .title{
@@ -287,7 +285,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 2px;
   display: flex;
   justify-content: center;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 30px;
 }
 
@@ -326,7 +324,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 22px;
   display: flex;
   justify-content: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 35px;
 }
 
@@ -335,7 +333,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 22px;
   display: flex;
   justify-content: center;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 25px;
 }
   
@@ -345,7 +343,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 22px;
   display: flex;
   justify-content: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 35px;
 }
 
@@ -354,7 +352,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 22px;
   display: flex;
   justify-content: center;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 25px;}
 
 .five{
@@ -362,7 +360,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 22px;
   display: flex;
   justify-content: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 35px;
 }
 
@@ -371,7 +369,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 22px;
   display: flex;
   justify-content: center;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 25px;}
 
 .seven{
@@ -379,7 +377,7 @@ font-family: 'Over the Rainbow', cursive;
   padding: 22px;
   display: flex;
   justify-content: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 35px;
 }
 
@@ -388,5 +386,5 @@ font-family: 'Over the Rainbow', cursive;
   padding: 22px;
   display: flex;
   justify-content: center;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 25px;}
