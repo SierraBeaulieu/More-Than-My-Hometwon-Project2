@@ -312,6 +312,10 @@ font-family: 'Dancing Script', cursive;
   transform: rotate(45deg);
   transform-origin: 100% 100%;
 }
+@media (max-width: 475px) {
+  main. {background-color: pink;
+  }
+}
 
 .sierraheart{
   margin-left: auto;
