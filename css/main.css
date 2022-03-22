@@ -262,11 +262,13 @@ textarea {
 }
 
 
-
+font-family: 'Caveat', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Over the Rainbow', cursive;
 
 
 .main{
-  background-color: #4E598C;
+  background-color: #94d3f2;
 }
 
 
@@ -339,7 +341,7 @@ textarea {
   
 
 .three{
-  color: pink;
+  color:pink;
   padding: 22px;
   display: flex;
   justify-content: center;
