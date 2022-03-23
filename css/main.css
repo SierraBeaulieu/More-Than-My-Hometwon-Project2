@@ -426,3 +426,34 @@ font-family: 'Dancing Script', cursive;
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 475px) {
+  .main {
+    background-color: black;
+  }
+}
+
+@media (max-width: 475px) {
+  .background {
+    background-color: black;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 1199px) {
+  .background {
+    background-color: black;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .background {
+    background-color: black;
+  }
+}
+
+@media (max-width: 475px) {
+  .body {
+    font-size: 90%;
+  }
+}
