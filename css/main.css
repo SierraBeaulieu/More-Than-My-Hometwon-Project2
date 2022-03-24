@@ -261,10 +261,7 @@ textarea {
   }
 }
 
-
-font-family: 'Caveat', cursive;
-font-family: 'Dancing Script', cursive;
-
+ 
 .main{
   background-color: #f78f76;
 }
@@ -280,6 +277,8 @@ font-family: 'Dancing Script', cursive;
   justify-content: center;
   font-family: 'Caveat', cursive;
   font-size: 60px;
+  text-shadow: 4px 4px 4px black;
+  letter-spacing: 2px;
 }
 .title{
   color: #EDD892;
@@ -329,8 +328,9 @@ font-family: 'Dancing Script', cursive;
   font-family: 'Caveat', cursive;
   font-size: 35px;
   text-shadow: 4px 4px 1px #F71184;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
+
 
 .two{
   color: #F71184;
@@ -342,7 +342,10 @@ font-family: 'Dancing Script', cursive;
   text-shadow: 4px 4px 1px pink;
   letter-spacing: 2px;
 }
-  
+
+.beer{
+  color: purple;
+}
 
 .three{
   color:pink;
@@ -396,7 +399,7 @@ font-family: 'Dancing Script', cursive;
   justify-content: center;
   font-family: 'Caveat', cursive;
   font-size: 35px;
-  text-shadow: 4px 4px 4px #F71184;
+  text-shadow: 4px 4px 1px #F71184;
   letter-spacing: 2px;
 }
 
@@ -406,26 +409,17 @@ font-family: 'Dancing Script', cursive;
   display: flex;
   justify-content: center;
   font-family: 'Caveat', cursive;
-  font-size: 55px;
+  font-size: 45px;
   text-shadow: 4px 4px 1px pink;
   letter-spacing: 6px;
 }
 
-  
 
-.sunset-photo{
-  background-image: url(img/huntington-beach-pier-sunset.jpg);
-  background-size: cover;
-  background-color: #BCB6FF;
-  align-items: center;
-  padding: 10px;
-  display: block;
-  justify-content: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
+.hometown{
+  border-radius: 10px;
+  border: 5px solid pink;
 }
+
 
 @media (max-width: 475px) {
   .main {
@@ -453,7 +447,23 @@ font-family: 'Dancing Script', cursive;
 }
 
 @media (max-width: 475px) {
-  .body {
+  .body,
+  .two,
+  .one,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight{
     font-size: 90%;
   }
+}
+
+.sunset-container{
+  background-image: url(../img/huntington-beach-pier-sunset.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  box-sizing: border-box;
 }
