@@ -343,9 +343,7 @@ textarea {
   letter-spacing: 2px;
 }
 
-.beer{
-  color: purple;
-}
+
 
 .three{
   color:pink;
@@ -466,4 +464,7 @@ textarea {
   background-position: center;
   width: 100%;
   box-sizing: border-box;
+}
+.bold{
+  font-weight: bold;
 }
